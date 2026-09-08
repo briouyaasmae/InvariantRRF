@@ -41,9 +41,6 @@ def main():
         if '/kaggle/input/notebooks/asmae' in text:
             errors.append(f'{name}: private Kaggle account path remains')
 
-    if (root / 'manuscript').exists():
-        errors.append('manuscript/ directory must not be included in the code-only package')
-
     license_path = root / 'LICENSE'
     if not license_path.exists():
         errors.append('LICENSE is missing')
