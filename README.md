@@ -5,7 +5,6 @@ to reproduce the experiments associated with:
 
 **Representation-Reliable Reciprocal Rank Fusion: Provenance Mass Conservation and Exact Top-K Certification**
 
-The research manuscript is intentionally **not included** in this repository.
 The package is code- and reproducibility-focused.
 
 The repository separates the primary canonical rerun from three targeted
@@ -127,7 +126,6 @@ The verifier checks:
 - exactly four source notebooks are present;
 - notebook execution counts and outputs are stripped;
 - account-specific private Kaggle paths are absent;
-- the repository does not contain a `manuscript/` directory;
 - the GPL license and software citation metadata are present.
 
 ## Installation
@@ -175,6 +173,3 @@ under **GPL-3.0-or-later**. See `LICENSE` and `NOTICE.md`.
 
 Third-party datasets, pretrained models, libraries, and benchmark resources
 remain subject to their original licenses and terms.
-
-The research manuscript is not distributed in this package and is not covered
-by this repository's software license.
