@@ -3,15 +3,19 @@
 Run:
 
 ```bash
-python scripts/build_figures.py --input-root /path/to/four-notebook-outputs --output-dir figures
+python scripts/build_figures.py --input-root /path/to/notebook-outputs --output-dir figures
 ```
 
-The script produces the three primary figure files:
+The current script reads the canonical, Information Fusion strengthening, and
+Information Fusion final-validation outputs and produces:
 
-- `Figure1_MC_RRF_SetPreservation.pdf`
-- `Figure2_NestedRRF_ReplicationAudit.pdf`
-- `Figure3_StableRRF_DenseCap_Certification.pdf`
+- `Figure1_CrossKernel_ExactCopy.pdf`
+- `Figure2_NestedReplication_AcrossKernels.pdf`
+- `Figure3_Stable_DenseCap_Certification.pdf`
 
-It also writes PNG fallbacks, diagnostic figures, figure-source CSVs, and a
-SHA-256 input manifest. Generated figure files are ignored by Git so they can
-be recreated from the frozen experiment outputs.
+PNG fallbacks are written alongside the PDFs. Figure-source CSV files and a
+SHA-256 manifest of the input tables are written under `figures/source_data/`
+and `figures/FIGURE_INPUT_MANIFEST.json`.
+
+Generated figure files are ignored by Git so they can be recreated from the
+frozen experiment outputs.

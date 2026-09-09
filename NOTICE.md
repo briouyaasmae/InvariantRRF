@@ -15,8 +15,9 @@ other external materials are not relicensed by this repository. They remain
 subject to their own licenses, terms, and attribution requirements.
 
 The research manuscript is intentionally not included in this repository.
-Publication text, tables, and other manuscript content are not licensed by this
-repository unless explicitly stated elsewhere by the copyright holders.
+Publication text, tables, figures, and other manuscript content are not
+licensed by this repository unless explicitly stated elsewhere by the
+copyright holders.
 
 If you use this implementation in academic work, please cite the associated
-InvariantRRF research paper and this software repository where appropriate.
+InvariantFusion research paper and this software repository where appropriate.
