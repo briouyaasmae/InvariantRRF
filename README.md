@@ -11,8 +11,6 @@ The repository name `InvariantRRF` is retained for archival continuity with the
 original release and Zenodo record. The current manuscript generalizes the
 RRF-specific formulation to monotone non-negative additive rank fusion.
 
-The research manuscript is intentionally **not included** in this repository.
-The package is code- and reproducibility-focused.
 
 The workflow keeps the original frozen retrieval artifacts separate from later
 closure and strengthening audits. Later notebooks consume verified artifacts
@@ -202,7 +200,6 @@ The verifier checks:
 - exactly six source notebooks are present;
 - notebook execution counts and saved outputs are stripped;
 - account-specific private Kaggle paths are absent;
-- the repository does not contain a `manuscript/` directory;
 - the GPL license and software citation metadata are present.
 
 ## Installation
@@ -269,6 +266,3 @@ under **GPL-3.0-or-later**. See `LICENSE` and `NOTICE.md`.
 
 Third-party datasets, pretrained models, libraries, and benchmark resources
 remain subject to their original licenses and terms.
-
-The research manuscript is not distributed in this package and is not covered
-by this repository's software license.
